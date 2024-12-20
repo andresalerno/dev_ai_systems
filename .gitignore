@@ -1,0 +1,22 @@
+# Ignore Python virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Ignore .env files
+.env
+
+# Ignore PDF files
+*.pdf
+
+# Ignore other common files
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+.DS_Store
